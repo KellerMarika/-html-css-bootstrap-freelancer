@@ -1,0 +1,23 @@
+/* ***************************************** 
+            RESPONSIVE- MOBILE-FIRST 
+******************************************* */
+
+/* XS extra small < 576px - default css*/
+
+
+
+
+/***** SM - small < 576px ***************************/
+@media screen and (min-width: 576px) {
+
+}
+
+/***** MD - medium < 768px **************************/
+@media screen and (min-width: 768px) {
+
+
+}
+/***** LG - large < 992px ****************************/
+@media screen and (min-width: 992px) {
+    
+}
