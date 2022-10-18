@@ -78,11 +78,11 @@
 
 
 
-    <header>
+    <header class="bg-primary">
         <!-- nav 100% bg color-->
-        <nav class="bg-secondary">
+        <!--  <nav class="bg-secondary">
 
-            <!-- ha del padding -->
+
             <div id="nav-container" class="container d-flex justify-content-between align-items-center ">
 
                 <div id="nav-sx">
@@ -94,17 +94,14 @@
 
                 <div id="nav-dx">
 
-                    <!-- border radius  -->
-                    <div class="h-menu-nav d-sm-none">
+                    <div class="h-menu-nav d-md-none">
 
                         <button class="btn btn-outline-light">
                             <i class="fa-solid fa-bars"></i>
                         </button>
-
-
                     </div>
 
-                    <div class="link-nav d-none d-sm-block">
+                    <div class="link-nav d-none d-md-block">
                         <ul class="nav">
                             <li class="nav-item">
                                 <a class="nav-link" href="#"> link</a>
@@ -120,14 +117,13 @@
                 </div>
 
             </div>
-        </nav>
+        </nav> -->
 
-        <article class="bg-primary">
 
-            <div id="jumbotrone-container" class="container d-flex justify-content-center">
+        <article id="jumbotrone-container" class="container m-auto">
+            <div class="row justify-content-center">
 
-                <div class="col-10 col-sm-8">
-
+                <div class="col-10 col-md-8">
                     <div id="jumbotrone-content" class="text-center">
 
                         <div class="img-container">
@@ -155,43 +151,38 @@
 
     <main class="text-center">
 
-        <section>
-            <div id="portfolio" class="container">
-                <div class="row row-cols-s-12 row-cols-sm-2 row-cols-md-3">
+        <section id="portfolio" class="container">
+            <div class="row row-cols-12 row-cols-md-2 row-cols-lg-3">
 
-                    <!-- ______________________________________________row-cols-{breakpoint}-X è sufficiente. come posso chiamare le col? se metto solo "col" prendono il comportamento di default di riempimento automatico su tutta la lunghezza, ma il -12 mi appare sbagliato -->
+                <div class=" col-12">
+                    <img src="" alt="">
+                </div>
 
-                    <div class=" col-12">
-                        <img src="" alt="">
-                    </div>
+                <div class=" col-12 ">
+                    <img src="" alt="">
+                </div>
 
-                    <div class=" col-12 ">
-                        <img src="" alt="">
-                    </div>
+                <div class=" col-12 ">
+                    <img src="" alt="">
+                </div>
 
-                    <div class=" col-12 ">
-                        <img src="" alt="">
-                    </div>
+                <div class=" col-12 ">
+                    <img src="" alt="">
+                </div>
 
-                    <div class=" col-12 ">
-                        <img src="" alt="">
-                    </div>
+                <div class=" col-12 ">
+                    <img src="" alt="">
+                </div>
 
-                    <div class=" col-12 ">
-                        <img src="" alt="">
-                    </div>
-
-                    <div class=" col-12">
-                        <img src="" alt="">
-                    </div>
+                <div class=" col-12">
+                    <img src="" alt="">
                 </div>
             </div>
         </section>
 
 
-        <section class="bg-primary">
-
-            <div id="about" class="container">
+        <div class="bg-primary">
+            <section id="about" class="container">
 
                 <div class="title">
                     <h2>t</h2>
@@ -201,11 +192,12 @@
                     <i class="fa-solid fa-star"></i>
                 </div>
 
-                <div class=" d-flex justify-content-center text-start">
+                <div class=" row justify-content-center text-start">
 
-                    <div class="col-8 col-sm-10 col-md-12">
-                        <div class="d-flex flex-column flex-sm-row">
-                            <div>
+                    <div class="col-8 col-md-10 col-lg-12">
+                        <div class="row row-cols-md-2 ">
+
+                            <div class="col-12">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ex quibusdam obcaecati
                                     illum
                                     explicabo ut optio repellat. Hic voluptates rerum amet molestiae ut molestias, dicta
@@ -218,7 +210,7 @@
                                     dolorem aut. Voluptates, exercitationem magni!
                                 </p>
                             </div>
-                            <div>
+                            <div class="col-12">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ex quibusdam obcaecati
                                     illum
                                     explicabo ut optio repellat. Hic voluptates rerum amet molestiae ut molestias, dicta
@@ -240,122 +232,123 @@
                         a
                     </button>
                 </div>
+            </section>
+        </div>
+
+
+        <section id="contact" class="container">
+
+            <div class="title">
+                <h2>t</h2>
             </div>
-        </section>
+
+            <div class="star-container">
+                <i class="fa-solid fa-star"></i>
+            </div>
 
 
-        <section>
-            <div id="contact" class="container">
+            <div class=" row justify-content-center text-start">
 
-                <div class="title">
-                    <h2>t</h2>
-                </div>
-
-                <div class="star-container">
-                    <i class="fa-solid fa-star"></i>
-                </div>
+                <div class="col-8 col-lg-10">
 
 
-                <div class=" d-flex justify-content-center text-start">
+                    <form action="#" method="get">
 
-                    <div class="col-8 col-md-10">
+                        <div>
+                            <label for="name">name</label>
+                            <input id="name" type="text" name="mame">
+                        </div>
 
+                        <div>
+                            <label for="email">email address</label>
+                            <input id="email" type="email" name="email">
+                        </div>
 
-                        <form action="#" method="get">
+                        <div>
+                            <label for="phone">phone number</label>
+                            <input id="phone" type="number" name="phone">
+                        </div>
 
-                            <div>
-                                <label for="name">name</label>
-                                <input id="name" type="text" name="mame">
-                            </div>
-
-                            <div>
-                                <label for="email">email address</label>
-                                <input id="email" type="email" name="email">
-                            </div>
-
-                            <div>
-                                <label for="phone">phone number</label>
-                                <input id="phone" type="number" name="phone">
-                            </div>
-
-                            <div>
-                                <label for="message">message</label>
-                                <input id="message" type="text">
-                            </div>
+                        <div>
+                            <label for="message">message</label>
+                            <input id="message" type="text">
+                        </div>
 
 
-                            <button class="btn btn-success">
+                        <button class="btn btn-success">
 
-                            </button>
+                        </button>
 
-                        </form>
-                    </div>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
 
 
-    <footer class="bg-secondary text-center">
-        <div id="footer-container" class="container d-flex justify-content-center">
-            <div class="col-10 col-md-12">
+    <div class="bg-secondary">
+        <footer id="footer-container" class="container  text-center">
+            <div class="row justify-content-center">
 
-                <div class="row row-cols-s-12 row-cols-sm-3 ">
 
-                    <!-- ______________________________________________row-cols-{breakpoint}-X è sufficiente. come posso chiamare le col? se metto solo "col" prendono il comportamento di default di riempimento automatico su tutta la lunghezza, ma il -12 mi appare sbagliato -->
+                <div class="col-10 col-lg-12">
+                    <div class="row row-cols-12 row-cols-md-3">
 
-                    <div class=" col-12">
+                        <!-- ______________________________________________row-cols-{breakpoint}-X è sufficiente. come posso chiamare le col? se metto solo "col" prendono il comportamento di default di riempimento automatico su tutta la lunghezza, ma il -12 mi appare sbagliato -->
 
-                        <div class="footer-sx">
-                            <h3 class="title">t</h3>
-                            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
-                                maiores
-                                explicabo suscipit asperiores repellat unde. Totam fuga explicabo provident nulla id
-                                molestias, voluptas iste unde ex numquam, earum molestiae harum.</p>
+                        <div class=" col-12">
 
+                            <div class="footer-sx">
+                                <h3 class="title">t</h3>
+                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+                                    maiores
+                                    explicabo suscipit asperiores repellat unde. Totam fuga explicabo provident nulla id
+                                    molestias, voluptas iste unde ex numquam, earum molestiae harum.</p>
+
+                            </div>
                         </div>
-                    </div>
 
-                    <div class=" col-12 ">
-                        <div class="footer-middle">
-                            <h3 class="title">t</h3>
+                        <div class=" col-12 ">
+                            <div class="footer-middle">
+                                <h3 class="title">t</h3>
 
-                            <a href="#">
-                                <i>icona</i>
-                            </a>
-                            <a href="#">
-                                <i>icona</i>
-                            </a>
-                            <a href="#">
-                                <i>icona</i>
-                            </a>
-                            <a href="#">
-                                <i>icona</i>
-                            </a>
+                                <a href="#">
+                                    <i>icona</i>
+                                </a>
+                                <a href="#">
+                                    <i>icona</i>
+                                </a>
+                                <a href="#">
+                                    <i>icona</i>
+                                </a>
+                                <a href="#">
+                                    <i>icona</i>
+                                </a>
 
+                            </div>
                         </div>
-                    </div>
 
-                    <div class=" col-12 ">
-                        <div class="footer-dx">
-                            <h3 class="title">t</h3>
-                            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
-                                maiores
-                                explicabo suscipit asperiores repellat unde. Totam fuga explicabo provident nulla id
-                                molestias, voluptas iste unde ex numquam, earum molestiae harum.</p>
-                            <a href="#">link</a>
-
+                        <div class=" col-12 ">
+                            <div class="footer-dx">
+                                <h3 class="title">t</h3>
+                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+                                    maiores
+                                    explicabo suscipit asperiores repellat unde. Totam fuga explicabo provident nulla id
+                                    molestias, voluptas iste unde ex numquam, earum molestiae harum. <a
+                                        href="#">link</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div id="copyright">
-            <p> copyright</p>
-        </div>
+            <div id="copyright">
+                <p> copyright</p>
+            </div>
+        </footer>
+    </div>
 
-    </footer>
 </body>
 
 </html>
