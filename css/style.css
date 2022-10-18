@@ -1,7 +1,7 @@
 /* *******************************
         GRIGLIA DI CONTROLLO
  ***************************** */
-* {
+.container {
   
     border: 1px solid rgba(56, 71, 135, 0.442);
 }
@@ -11,44 +11,81 @@
 /* *******************************
             VARIABILI
  ***************************** */
-
-/* --bs-primary: ;
---bs-primary-rgb:
- */
-
-
-/* *******************************
-            NAV
- ***************************** */
-
-
-
-
-/* *******************************
-            JUMBOTRONE
- ***************************** */
-*::before{
-    padding: 0;
-    margin: 0;
+:root{
+    --my-bg-primary: #1abc9c;
+    --my-bg-secondary: #3a546d;
+    --my-bg-secondary-dark:#2c3e50;
 }
+
+
+/* *******************************
+            CLASS-UTILITIES
+ ***************************** */
+
+
+.my-bg-primary{
+    background-color: var(--my-bg-primary);
+
+}
+.my-txt-primary{
+    color: var(--my-bg-primary);
+
+}
+.my-bg-secondary{
+    background-color: var(--my-bg-secondary);
+
+}
+.my-bg-secondary-dark{
+    background-color: var(--my-bg-secondary-dark);
+
+}
+
+/* ___________________________________________________CHIEDI */
+
+/* *******************************
+            ELEMENT-STAR
+ ***************************** */
 
 
 .star-icon{
-    width: 2rem;
-    font-size: 2rem;
+   /*  width: 1.5rem; */
+    font-size: 1.2rem;
     vertical-align: middle;
 }
 
-.tar-container .star-icon::after,
-.star-container .star-icon::before,
+/* .tar-container .star-icon::after,
+.star-container .star-icon::before, */
 .star-stroke{
-    content: "";
+  /*   cotennt: ""; */
     display: inline-block;
     vertical-align: middle;
-    width: 100px;
-    height: 3px;
+    width: 45px;
+    height: 2px;
     background-color: rgb(3, 18, 31);
     border-radius: 50px;
     margin: 10px;
 }
 
+/* ___________________________________________________CHIEDI */
+
+/* *******************************
+            CONTACT
+ ***************************** */
+
+.my-form-control{
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+
+textarea.my-form-control{
+    min-height: 100px;
+
+}
+
+
+./* *******************************
+            CLASS-UTILITIES
+ ***************************** */
+ .footer-middle *{
+    border: 1px solid white;
+ }

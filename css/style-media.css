@@ -11,16 +11,30 @@
 
 @media screen and (min-width: 768px) {
 
-    
+    /* .tar-container .star-icon::after,
+.star-container .star-icon::before, */
+    .star-stroke {
+        /*   cotennt: ""; */
+        width: 80px;
+        height: 3px;
+    }
 
-/* *******************************
-            NAV
- ***************************** */
-    
+    .star-icon {
+        /*  width: 1.5rem; */
+        font-size: 1.5rem;
+        vertical-align: middle;
+    }
 }
-    
+
 
 /**** LG - large < 992px *************/
 @media screen and (min-width: 992px) {
 
+    /* .tar-container .star-icon::after,
+.star-container .star-icon::before, */
+    .star-stroke {
+        /*   cotennt: ""; */
+        width: 100px;
+        height: 3px;
+    }
 }
