@@ -78,7 +78,7 @@
 
 
 
-    <header class="bg-primary">
+    <header class="bg-primary text-light">
 
         <!-- navbar bootstrap -->
         <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
@@ -86,7 +86,7 @@
             <div class="container text-uppercase w-100">
                 <div id="nav-sx" class="w-bold">
                     <!-- logo sx -->
-                    <a class="navbar-brand" href="#">start bootstrap</a>
+                    <a class="navbar-brand fw-bold" href="#">start bootstrap</a>
                 </div>
 
                 <!-- omesso:  data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" -->
@@ -132,10 +132,20 @@
 
                         <h1 class="title text-uppercase border">start bootstrap</h1>
 
-
-                        <div class="star-container">
-                            <i class="fa-solid fa-star"></i>
+                        <div class="star-strole-container">
+                            <div class="bg-light star-stroke"></div>
+                            <i class="star-icon fa-solid fa-star"></i>
+                            <div class=" bg-light star-stroke"></div>
                         </div>
+                        <!-- _________________________________________________________non sono riuscita a farlo funzionare, chiedi -->
+                        <!-- <div class="star-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <!--  <path
+                                    d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+                                    fill=" #f5f5f5"></path>
+                            </svg> -->
+                        <!-- __________________________________________________________________________________________________________________________ -->
 
                         <h3 class="subtitle text-uppercase">graphic artist - web designer - illustrator</h3>
 
@@ -149,8 +159,11 @@
 
     <main class="text-center">
         <h2 class="title text-uppercase border"> portfolio</h2>
-        <div class="star-container">
-            <i class="fa-solid fa-star"></i>
+        <div class="star-strole-container">
+
+            <div class="star-stroke"></div>
+            <i class="star-icon fa-solid fa-star"></i>
+            <div class="star-stroke"></div>
         </div>
 
 
@@ -196,13 +209,23 @@
         </section>
 
 
-        <div class="bg-primary">
+        <div class="bg-primary text-light">
             <section id="about" class="container">
 
                 <h2 class="title text-uppercase border">about</h2>
-                <div class="star-container">
-                    <i class="fa-solid fa-star"></i>
+
+                <div class="star-strole-container">
+                    <div class="bg-light star-stroke"></div>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <div class="bg-light star-stroke"></div>
                 </div>
+
+                <!-- _________________________________________________________non sono riuscita a farlo funzionare, chiedi -->
+
+                <!--    div class="star-container">
+                    <img src="img/star-solid.svg" alt="" class="star-icon">
+                </div> -->
+                <!-- ____________________________________________________________________________________________________________________ -->
 
                 <div class=" row justify-content-center text-start">
 
@@ -243,10 +266,20 @@
         <section id="contact" class="container">
 
             <h2 class="title text-uppercase border">contact</h2>
-            <div class="star-container">
-                <i class="fa-solid fa-star"></i>
+            <div class="star-stroke-container">
+
+                <div class="star-stroke"></div>
+                <i class="star-icon fa-solid fa-star"></i>
+                <div class="star-stroke"></div>
+
             </div>
 
+
+            <!-- _________________________________________________________non sono riuscita a farlo funzionare, chiedi -->
+            <!--   <div class="star-container">
+                <i class=" star-icon fa-solid fa-star"></i>
+            </div> -->
+            <!-- ___________________________________________________________________________________________________________________________ -->
 
 
             <div class=" row justify-content-center text-start">
@@ -288,7 +321,7 @@
     </main>
 
 
-    <div class="bg-secondary">
+    <div class="bg-secondary text-light">
         <footer id="footer-container" class="container  text-center">
             <div class="row justify-content-center">
 
@@ -301,43 +334,38 @@
                         <div class=" col-12">
 
                             <div class="footer-sx">
-                                <h3 class="title">t</h3>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
-                                    maiores
-                                    explicabo suscipit asperiores repellat unde. Totam fuga explicabo provident nulla id
-                                    molestias, voluptas iste unde ex numquam, earum molestiae harum.</p>
+                                <h3 class="title text-uppercase">location</h3>
+                                <p class="text text-capitalize">2215 jhon daniel drive clark, MO 54243</p>
 
                             </div>
                         </div>
 
                         <div class=" col-12 ">
                             <div class="footer-middle">
-                                <h3 class="title">t</h3>
+                                <h3 class="title text-uppercase">around the web</h3>
 
-                                <a href="#">
-                                    <i>icona</i>
-                                </a>
-                                <a href="#">
-                                    <i>icona</i>
-                                </a>
-                                <a href="#">
-                                    <i>icona</i>
-                                </a>
-                                <a href="#">
-                                    <i>icona</i>
-                                </a>
+                                <div class="d-inline-block border-light rounded-5"> <a
+                                        class=" fa-fw m-1 d-inline-block text-light text-decoration-none fa-brands fa-facebook-f "
+                                        href="#"> </a></div>
+                                <div class="d-inline-block border-light rounded-5"> <a
+                                        class=" fa-fw m-1 d-inline-block text-light text-decoration-none fa-brands fa-google-plus-g"
+                                        href="#"> </a></div>
+                                <div class="d-inline-block border-light rounded-5"> <a
+                                        class=" fa-fw m-1 d-inline-block text-light text-decoration-none fa-brands fa-twitter"
+                                        href="#"> </a></div>
+                                <div class="d-inline-block border-light rounded-5"> <a
+                                        class=" fa-fw m-1 d-inline-block text-light text-decoration-none fa-brands fa-linkedin-in "
+                                        href="#"> </a> </div>
 
                             </div>
                         </div>
 
                         <div class=" col-12 ">
                             <div class="footer-dx">
-                                <h3 class="title">t</h3>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
-                                    maiores
-                                    explicabo suscipit asperiores repellat unde. Totam fuga explicabo provident nulla id
-                                    molestias, voluptas iste unde ex numquam, earum molestiae harum. <a
-                                        href="#">link</a>
+                                <h3 class="title  text-uppercase">about freelancer</h3>
+                                <p class="text">freelance is a free to use, open source Bootstrap theme
+                                    created by<a class="text-capitalize link-primary" href="#">start
+                                        bootstrap</a>
                                 </p>
                             </div>
                         </div>
