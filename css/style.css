@@ -9,7 +9,7 @@
     left: 50%;
     transform: translateX(-49%);
     opacity: 100%;
- /* display: none; */ 
+  display: none;
 }
 
 
